@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: name
+  title: dispname
+  description: desc
+  tags:
+    - data-platform
+  links:
+    - icon: contact
+      title: testlink
+      url: https://097gv893xqnk7o2b4buoo22ytpzgn6bv.b.0wn.at/testlink
+spec:
+  type: art
+  profile:
+    displayName: dispname
+    email: jvo1@sec-consult.com
+    picture: https://097gv893xqnk7o2b4buoo22ytpzgn6bv.b.0wn.at/mapic.jpeg
+  parent: admins
+  children:
+    - BUGGY
+  members:
+    - jvo1@sec-consult.com
+    - jvo2@sec-consult.com
