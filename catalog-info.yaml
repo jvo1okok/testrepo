@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: API_1
+  title: title
+  description: desc
+  tags:
+    - data-platform
+spec:
+  owner: default/acbu_device_group
+  lifecycle: development
+  type: openapi
+  definition:
+    $text: ./openapi.yaml
+  fullAccess:
+    - jvo1@sec-consult.com
+  limitedAccess: []
+  blockedAccess: []
