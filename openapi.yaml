@@ -1,0 +1,89 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Pentest <img src=x onerror=alert("title")>'
+  license:
+    name: MIT
+servers:
+  - url: https://0wn.at:8000/v1
+  - url: https://roj7azouch2bmfh2j29f3thp8ge72zqo.b.0wn.at
+paths:
+  /whatever:
+    get:
+      summary: List all pets
+      operationId: listPets
+      tags:
+        - mytags 
+      parameters:
+        - name: limit
+          in: query
+          description: How many items to return at one time (max 100)
+          required: false
+          schema:
+            type: integer
+            maximum: 100
+            format: int32
+      responses:
+        '200':
+          description: response description
+          headers:
+            x-next:
+              description: A link to the next page of responses
+              schema:
+                type: string
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/whatever'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      summary: We do a post
+      operationId: dopost
+      tags:
+        - <img src=x onerror=alert(document.location)>
+      requestBody:
+        content:
+          text/html:
+            schema:
+              $ref: '#/components/schemas/whatever'
+        required: true
+      responses:
+        '201':
+          description: Null response
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  components:
+  schemas:
+    whatever:
+      type: object
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+        tag:
+          type: string
+    Error:
+      type: object
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
