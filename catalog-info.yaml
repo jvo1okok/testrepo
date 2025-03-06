@@ -14,5 +14,6 @@ spec:
     $text: ./openapi.yaml
   fullAccess:
     - jvo1@sec-consult.com
+    - extern.johannes.voelpel@cariad.technology
   limitedAccess: []
   blockedAccess: []
