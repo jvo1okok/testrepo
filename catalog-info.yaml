@@ -7,7 +7,7 @@ metadata:
   tags:
     - data-platform
 spec:
-  owner: default/acbu_device_group
+  owner: name
   lifecycle: development
   type: openapi
   definition:
