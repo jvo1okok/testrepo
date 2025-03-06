@@ -5,8 +5,8 @@ info:
   license:
     name: MIT
 servers:
-  - url: https://0wn.at:8000/v1
-  - url: https://roj7azouch2bmfh2j29f3thp8ge72zqo.b.0wn.at
+  - url: https://185.238.32.160:8000/v1
+  - url: https://y54er651toji3my909qmk0ywpnvej77w.b.0wn.at
 paths:
   /whatever:
     get:
