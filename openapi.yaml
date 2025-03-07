@@ -5,7 +5,7 @@ info:
   license:
     name: MIT
 servers:
-  - url: https://185.238.32.160:8000/v1
+  - url: https://api.0wn.at:5555/v1
   - url: https://slh870lv9izcjge3g36g0ueq5hb8z3ns.b.0wn.at
 paths:
   /whatever:
