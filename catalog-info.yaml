@@ -6,6 +6,8 @@ metadata:
   description: desc
   tags:
     - data-platform
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   owner: name
   lifecycle: development
