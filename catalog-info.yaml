@@ -9,7 +9,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
-  owner: name
+  owner: Pentestgroup
   lifecycle: development
   type: openapi
   definition:
