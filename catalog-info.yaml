@@ -12,6 +12,7 @@ spec:
   owner: Pentestgroup
   lifecycle: development
   type: openapi
+  system: Pentestsystem
   definition:
     $text: ./openapi.yaml
   fullAccess:
