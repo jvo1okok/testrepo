@@ -11,6 +11,7 @@ metadata:
 spec:
   owner: default/Pentestgroup
   lifecycle: experimental
+  type: platform
   fullAccess: []
   limitedAccess: []
   blockedAccess: []
