@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: name
-  title: dispname
+  name: Pentestgroup
+  title: Pentestgroup
   description: desc
   tags:
     - data-platform
@@ -21,4 +21,3 @@ spec:
     - BUGGY
   members:
     - jvo1@sec-consult.com
-    - <img src=x onerror=alert(document.location)>@sec-consult.com
