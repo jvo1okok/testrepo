@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Pentestsystem
+  title: Pentestsystem
+  description: Pentestsystem
+  tags:
+    - aeris
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  owner: default/Pentestgroup
+  lifecycle: experimental
+  fullAccess: []
+  limitedAccess: []
+  blockedAccess: []
